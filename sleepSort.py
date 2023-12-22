@@ -30,6 +30,9 @@ def sleepSort(data):
     for i in range(len(data)):
         data[i] = sortedData[i]
 
+    # also returns data
+    return data
+
 # main function
 if __name__ == '__main__':
     print('data:' + str(data))
